@@ -26,11 +26,14 @@ Admin allows the Receptionist activations and add Hotel rooms and the services o
    
 </ul>
 
-<h3> Development server</h3>
-<p>Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.</p>
-
-<h3>Code scaffolding</h3>
-<p>Run ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|guard|interface|enum|module.</p>
+<h3>Features</h3>
+<h5>Admin</h5>
+<li>Admin should login before accessing the system</li>
+<li>Admin can add new receptionist when he/she joins the hotel. The login credentials for the receptionist is sent through a mail.</li>
+<li>Admin can view all the receptionists or by receptionist id.</li>
+<li>Admin can add available rooms in the hotel and view all the rooms that he has added.</li>
+<li>Admin can add new offers that varies with festivals/seasons, view all the offers and he can change the offers accordingly.</li>
+<li>Admin can view customers feedback and booking history.</li>
 
 
 <h3>Build</h3>
