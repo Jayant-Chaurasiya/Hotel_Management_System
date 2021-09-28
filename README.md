@@ -26,14 +26,38 @@ Admin allows the Receptionist activations and add Hotel rooms and the services o
    
 </ul>
 
-<h3>Features</h3>
-<h5>Admin</h5>
+<h1>Features</h1>
+<h3>Admin</h3>
 <li>Admin should login before accessing the system</li>
 <li>Admin can add new receptionist when he/she joins the hotel. The login credentials for the receptionist is sent through a mail.</li>
 <li>Admin can view all the receptionists or by receptionist id.</li>
 <li>Admin can add available rooms in the hotel and view all the rooms that he has added.</li>
 <li>Admin can add new offers that varies with festivals/seasons, view all the offers and he can change the offers accordingly.</li>
 <li>Admin can view customers feedback and booking history.</li>
+
+
+
+
+<h3>Receptionist</h3>
+
+
+<li>Receptionist should log in to his/her account to perform operations.</li>
+<li>Receptionist allocates room numbers to the customers based on their chosen requirementst</li>
+<li>Payment will be done by customer while booking hotel room,during check in and check out.</li>
+<li>If customer cancels his/her booking the amount will be refunded based on customer check in and cancellation date. While customer vacates, bill gets generated to the customer and balance amount should be cleared by the customer so that he can check out.</li>
+
+
+
+<h3>Customer</h3>
+
+<li>Customer can signup if he/she visits website for the first time or if the customer is already having an account then the customer can log in to the website and directly book a room.</li>
+<li>Customer can edit their details and update their password if they forgot.</li>
+<li>Customer can book a room on the basis of room type,offers,number of members. At the time of booking customer has to pay 10% amount in advance.Customer can update the booking details and cancel booking at a valid time for valid reasons so that they can get a refund accordingly.</li>
+<li>Customer can utilize pick drop facilities.</li>
+<li>Customer can pay the final bill through card,net banking and cash also.</li>
+
+
+
 
 
 <h3>Build</h3>
@@ -50,31 +74,19 @@ Admin allows the Receptionist activations and add Hotel rooms and the services o
 <p>To get more help on the Angular CLI use ng help or go check out the Angular CLI Overview and Command Reference page.</p>
 
 
-<h3>Contributors</h3>
+
+<h1>Technical Aspects</h1>
 <ul>
-  <li>Deekshit Srihari</li>
-  
-  <li>Jadala Pranahita</li>
-  
-  <li>Akshat Nagar</li>
-  
-  <li>Anuradha Mishra</li>
-  
-  <li>Jayant Chaurasiya</li>
-  </ul>
+
+  <li>Used Spring Data for connecting to postgreSQL database.</li>
+<li>Used DAO design pattern in the project</li>
+<li>Created Interactive Webpages using Angular and Bootstrap for the website</li>
+<li>All the client side and server side validations were done using TypeScript and Database</li>
+<li>Exception or Error Handling is done in both java and angular(With HttpClient)</li></li>
+<li>Tested all the functionalities using JUnit4</li>
+<li>Implemented Logging by Log4j</li>
 
 
-<h3>Usage
-  
-  </h3>
-  
-  <ul>
-  <li>Patient Module can be used to Register a patient with this application for further use</li>
-  
-  <li>After Signing in a Patient wuld be able to book an appointment for the Consultant for his problem with Doctor</li>
-  
-  <li>Doctor Module will able to manage and deny the appiontment</li>
-  
- 
-  </ul>
+
+</ul>
   
