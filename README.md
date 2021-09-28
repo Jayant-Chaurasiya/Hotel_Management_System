@@ -1,5 +1,8 @@
 <h1>Hotel Management System
 </h1>
+
+<h3>Result (HomePage)</h3>
+<img src="https://github.com/Jayant-Chaurasiya/Hotel_Management_System/blob/c2cb386b5770101971ea9b83e28be9f5db4b52b6/FrontEnd/src/assets/img/image.png">
 <h3>Project Description</h3>
 <p>
   The Application should allow the users to book the hotel rooms for few days which should include accomodation and food during the stay.
