@@ -89,4 +89,30 @@ Admin allows the Receptionist activations and add Hotel rooms and the services o
 
 
 </ul>
+
+
+
+<h1>Getting Started</h1>
+<p>After running this project , run the angular project . Home page will be displayed where you can see the about,facilities and login section for Admin, Receptionist, Customer.
+
+After login they can view their respective dashboard with all the functionalities.</p>
+
+
+
+<h1>Usage</h1>
+
+<h3>Step 1</h3>
+
+<p>
+Import this project by a Github Desktop(click here to install) or by downloading the Zip file . If you downloaded the zip file then you need to unzip or extract it and import this in eclipse(file-->import-->select the project) change the database configuration in application.properties file (Driver,Dialect,username and password).</p>
   
+  
+  <h3>Step 2</h3>
+  
+  <p>Import the angular Project (find here)by a Github Desktop or by downloading the Zip file. If you downloaded the zip file then you need to unzip or extract it and open the project folder in visual studio code or any other code editor(file-->select folder-->select the project)
+
+That's all you can run this project and see the results.</p>
+
+
+<h1>Contributors</h1>
+<p>This Project is a batch project. Entire batch of 25 members worked on each modules and functionalities collaboratively.</p>
