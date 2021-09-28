@@ -19,7 +19,7 @@ Admin allows the Receptionist activations and add Hotel rooms and the services o
 <li>  Angular 10</li>
 <li>  Spring AOP</li>
 <li>  PostgreSQL</li>
-<li>  <li>  AwS RDS</li>
+<li>   AWS RDS</li>
 <li>  AWS EC2</li>
 <li>  Docker</li>
 <li>  Jenkins</li>
